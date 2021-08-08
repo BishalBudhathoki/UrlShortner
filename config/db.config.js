@@ -2,8 +2,8 @@
 const mongoose = require('mongoose')
 
 //declare database string URI
-const db_uri = 'mongodb+srv://CZcDFIuLMzTRuz9R:CZcDFIuLMzTRuz9R@mobilewebapp.xdro8.mongodb.net/URLSHORTNER?retryWrites=true&w=majority'
-const db_uri1 ='mongodb://localhost:27017/Urlshortner'
+const db_uri = ''
+
 let database;
 //create a db connection
 mongoose.connect(db_uri, {
